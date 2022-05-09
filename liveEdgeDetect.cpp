@@ -1,5 +1,5 @@
 #include <iostream>
-#include "edgeDetection.h"
+#include "edgeDetection.hpp"
 using namespace cv;
 
 const int DEFAULT_CAMERA = 0;
