@@ -1,4 +1,4 @@
-#include "edgeDetection.h"
+#include "edgeDetection.hpp"
 
 using namespace cv;
 
