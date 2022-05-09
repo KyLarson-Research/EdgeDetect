@@ -2,9 +2,11 @@
 #include "edgeDetection.h"
 using namespace cv;
 
+const int DEFAULT_CAMERA = 0;
+
 int main(int argc, char** argv){
     // Open default camera
-    VideoCapture video_src(0);
+    VideoCapture video_src(DEFAULT_CAMERA);
 
     // If unsuccessful, end the program
     if (!video_src.isOpened()){
